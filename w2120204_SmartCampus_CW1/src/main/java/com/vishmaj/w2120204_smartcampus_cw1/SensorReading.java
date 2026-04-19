@@ -1,10 +1,14 @@
 package com.vishmaj.w2120204_smartcampus_cw1;
 
+import java.util.*;
+
 public class SensorReading {
     private String id;
     private long timeStamp;
     private double value;
 
+    
+    
     public String getId() {
         return id;
     }
@@ -33,5 +37,8 @@ public class SensorReading {
         this.id = id;
         this.timeStamp = timeStamp;
         this.value = value;
+    }
+    
+    public SensorReading(){
     }
 }

@@ -7,10 +7,6 @@ import java.util.Collection;
 import javax.ws.rs.*;
 import javax.ws.rs.core.*;
 
-/**
- *
- * @author vishma
- */
 @Path("/rooms")
 public class SensorRoomResource
   {

@@ -1,0 +1,5 @@
+20-Apr-2026 00:07:29.487 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+20-Apr-2026 00:07:29.488 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8000"]
+20-Apr-2026 00:07:29.499 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Apr-2026 00:07:29.590 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8000"]
+20-Apr-2026 00:07:29.602 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8000"]
