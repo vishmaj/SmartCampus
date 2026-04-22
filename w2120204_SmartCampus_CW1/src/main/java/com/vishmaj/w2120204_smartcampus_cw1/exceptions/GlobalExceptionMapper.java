@@ -1,5 +1,6 @@
 package com.vishmaj.w2120204_smartcampus_cw1.exceptions;
 
+import javax.ws.rs.WebApplicationException;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.ext.ExceptionMapper;
 import javax.ws.rs.ext.Provider;
@@ -8,6 +9,12 @@ import javax.ws.rs.ext.Provider;
 public class GlobalExceptionMapper implements ExceptionMapper<Throwable> {
     @Override
     public Response toResponse(Throwable exception) {
+        
+        //addes so that it leaves normal not found 404 errors the same
+        if (exception instanceof WebApplicationException) {
+            WebApplicationException webEx = (WebApplicationException) exception;
+            return webEx.getResponse();
+        }
         // Logs the actual error to the server console for the developer to see
         exception.printStackTrace();
 

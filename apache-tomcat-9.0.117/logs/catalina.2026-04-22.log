@@ -1,0 +1,89 @@
+22-Apr-2026 21:40:49.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.117
+22-Apr-2026 21:40:49.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 30 2026 18:21:16 UTC
+22-Apr-2026 21:40:49.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.117.0
+22-Apr-2026 21:40:49.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+22-Apr-2026 21:40:49.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+22-Apr-2026 21:40:49.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Apr-2026 21:40:49.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-24
+22-Apr-2026 21:40:49.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           24.0.1+9-30
+22-Apr-2026 21:40:49.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Apr-2026 21:40:49.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\study\IIT 2ND YR\Sem_2\CW\CSA\apache-tomcat-9.0.117
+22-Apr-2026 21:40:49.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\study\IIT 2ND YR\Sem_2\CW\CSA\apache-tomcat-9.0.117
+22-Apr-2026 21:40:49.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+22-Apr-2026 21:40:49.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+22-Apr-2026 21:40:49.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+22-Apr-2026 21:40:49.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+22-Apr-2026 21:40:49.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+22-Apr-2026 21:40:49.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+22-Apr-2026 21:40:49.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+22-Apr-2026 21:40:49.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\study\IIT 2ND YR\Sem_2\CW\CSA\apache-tomcat-9.0.117\conf\logging.properties
+22-Apr-2026 21:40:49.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Apr-2026 21:40:49.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Apr-2026 21:40:49.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Apr-2026 21:40:49.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+22-Apr-2026 21:40:49.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+22-Apr-2026 21:40:49.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\study\IIT 2ND YR\Sem_2\CW\CSA\apache-tomcat-9.0.117
+22-Apr-2026 21:40:49.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\study\IIT 2ND YR\Sem_2\CW\CSA\apache-tomcat-9.0.117
+22-Apr-2026 21:40:49.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\study\IIT 2ND YR\Sem_2\CW\CSA\apache-tomcat-9.0.117\temp
+22-Apr-2026 21:40:49.873 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.7] using APR version [1.7.6].
+22-Apr-2026 21:40:49.873 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+22-Apr-2026 21:40:49.873 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+22-Apr-2026 21:40:49.896 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.19 27 Jan 2026]
+22-Apr-2026 21:40:50.269 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8000"]
+22-Apr-2026 21:40:50.306 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [841] milliseconds
+22-Apr-2026 21:40:50.440 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Apr-2026 21:40:50.440 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.117]
+22-Apr-2026 21:40:50.453 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\study\IIT 2ND YR\Sem_2\CW\CSA\apache-tomcat-9.0.117\conf\Catalina\localhost\w2120204_SmartCampus_CW1.xml]
+22-Apr-2026 21:40:50.468 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/w2120204_SmartCampus_CW1] in deployment descriptor [E:\study\IIT 2ND YR\Sem_2\CW\CSA\apache-tomcat-9.0.117\conf\Catalina\localhost\w2120204_SmartCampus_CW1.xml] has been ignored
+22-Apr-2026 21:40:51.501 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Apr-2026 21:40:52.048 WARNING [main] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+22-Apr-2026 21:40:52.385 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\study\IIT 2ND YR\Sem_2\CW\CSA\apache-tomcat-9.0.117\conf\Catalina\localhost\w2120204_SmartCampus_CW1.xml] has finished in [1,932] ms
+22-Apr-2026 21:40:52.385 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\study\IIT 2ND YR\Sem_2\CW\CSA\apache-tomcat-9.0.117\webapps\docs]
+22-Apr-2026 21:40:52.421 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\study\IIT 2ND YR\Sem_2\CW\CSA\apache-tomcat-9.0.117\webapps\docs] has finished in [35] ms
+22-Apr-2026 21:40:52.421 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\study\IIT 2ND YR\Sem_2\CW\CSA\apache-tomcat-9.0.117\webapps\examples]
+22-Apr-2026 21:40:53.490 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\study\IIT 2ND YR\Sem_2\CW\CSA\apache-tomcat-9.0.117\webapps\examples] has finished in [1,069] ms
+22-Apr-2026 21:40:53.490 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\study\IIT 2ND YR\Sem_2\CW\CSA\apache-tomcat-9.0.117\webapps\host-manager]
+22-Apr-2026 21:40:53.523 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\study\IIT 2ND YR\Sem_2\CW\CSA\apache-tomcat-9.0.117\webapps\host-manager] has finished in [33] ms
+22-Apr-2026 21:40:53.524 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\study\IIT 2ND YR\Sem_2\CW\CSA\apache-tomcat-9.0.117\webapps\manager]
+22-Apr-2026 21:40:53.552 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\study\IIT 2ND YR\Sem_2\CW\CSA\apache-tomcat-9.0.117\webapps\manager] has finished in [27] ms
+22-Apr-2026 21:40:53.552 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\study\IIT 2ND YR\Sem_2\CW\CSA\apache-tomcat-9.0.117\webapps\ROOT]
+22-Apr-2026 21:40:53.571 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\study\IIT 2ND YR\Sem_2\CW\CSA\apache-tomcat-9.0.117\webapps\ROOT] has finished in [19] ms
+22-Apr-2026 21:40:53.575 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8000"]
+22-Apr-2026 21:40:53.598 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3288] milliseconds
+22-Apr-2026 21:40:57.069 INFO [http-nio-8000-exec-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/w2120204_SmartCampus_CW1]
+22-Apr-2026 21:40:57.174 INFO [http-nio-8000-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\study\IIT 2ND YR\Sem_2\CW\CSA\apache-tomcat-9.0.117\conf\Catalina\localhost\w2120204_SmartCampus_CW1.xml]
+22-Apr-2026 21:40:57.179 WARNING [http-nio-8000-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/w2120204_SmartCampus_CW1] in deployment descriptor [E:\study\IIT 2ND YR\Sem_2\CW\CSA\apache-tomcat-9.0.117\conf\Catalina\localhost\w2120204_SmartCampus_CW1.xml] has been ignored
+22-Apr-2026 21:40:57.713 INFO [http-nio-8000-exec-10] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Apr-2026 21:40:58.121 WARNING [http-nio-8000-exec-10] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+22-Apr-2026 21:40:58.374 INFO [http-nio-8000-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\study\IIT 2ND YR\Sem_2\CW\CSA\apache-tomcat-9.0.117\conf\Catalina\localhost\w2120204_SmartCampus_CW1.xml] has finished in [1,201] ms
+22-Apr-2026 21:40:58.377 INFO [http-nio-8000-exec-2] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/w2120204_SmartCampus_CW1]] after start() had already been called. The second call will be ignored.
+22-Apr-2026 21:41:17.518 INFO [http-nio-8000-exec-9] com.vishmaj.w2120204_smartcampus_cw1.filters.LoggingFilter.filter >>> INCOMING REQUEST: GET http://localhost:8000/w2120204_SmartCampus_CW1/api/v1/rooms
+22-Apr-2026 21:41:17.535 INFO [http-nio-8000-exec-9] com.vishmaj.w2120204_smartcampus_cw1.filters.LoggingFilter.filter <<< OUTGOING RESPONSE: Status 200
+22-Apr-2026 21:45:40.299 INFO [http-nio-8000-exec-11] com.vishmaj.w2120204_smartcampus_cw1.filters.LoggingFilter.filter >>> INCOMING REQUEST: GET http://localhost:8000/w2120204_SmartCampus_CW1/api/v1/sensors
+22-Apr-2026 21:45:40.316 INFO [http-nio-8000-exec-11] com.vishmaj.w2120204_smartcampus_cw1.filters.LoggingFilter.filter <<< OUTGOING RESPONSE: Status 200
+22-Apr-2026 21:46:03.065 INFO [http-nio-8000-exec-14] com.vishmaj.w2120204_smartcampus_cw1.filters.LoggingFilter.filter <<< OUTGOING RESPONSE: Status 500
+22-Apr-2026 21:49:44.735 INFO [http-nio-8000-exec-15] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/w2120204_SmartCampus_CW1]
+22-Apr-2026 21:50:01.367 INFO [http-nio-8000-exec-19] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\study\IIT 2ND YR\Sem_2\CW\CSA\apache-tomcat-9.0.117\conf\Catalina\localhost\w2120204_SmartCampus_CW1.xml]
+22-Apr-2026 21:50:01.368 WARNING [http-nio-8000-exec-19] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/w2120204_SmartCampus_CW1] in deployment descriptor [E:\study\IIT 2ND YR\Sem_2\CW\CSA\apache-tomcat-9.0.117\conf\Catalina\localhost\w2120204_SmartCampus_CW1.xml] has been ignored
+22-Apr-2026 21:50:01.773 INFO [http-nio-8000-exec-19] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Apr-2026 21:50:02.108 WARNING [http-nio-8000-exec-19] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+22-Apr-2026 21:50:02.399 INFO [http-nio-8000-exec-19] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\study\IIT 2ND YR\Sem_2\CW\CSA\apache-tomcat-9.0.117\conf\Catalina\localhost\w2120204_SmartCampus_CW1.xml] has finished in [1,032] ms
+22-Apr-2026 21:50:02.402 INFO [http-nio-8000-exec-11] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/w2120204_SmartCampus_CW1]] after start() had already been called. The second call will be ignored.
+22-Apr-2026 21:50:05.329 INFO [http-nio-8000-exec-22] com.vishmaj.w2120204_smartcampus_cw1.filters.LoggingFilter.filter <<< OUTGOING RESPONSE: Status 404
+22-Apr-2026 21:50:21.570 INFO [http-nio-8000-exec-18] com.vishmaj.w2120204_smartcampus_cw1.filters.LoggingFilter.filter <<< OUTGOING RESPONSE: Status 404
+22-Apr-2026 21:52:02.914 INFO [http-nio-8000-exec-29] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/w2120204_SmartCampus_CW1]
+22-Apr-2026 21:52:30.308 INFO [http-nio-8000-exec-27] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\study\IIT 2ND YR\Sem_2\CW\CSA\apache-tomcat-9.0.117\conf\Catalina\localhost\w2120204_SmartCampus_CW1.xml]
+22-Apr-2026 21:52:30.338 WARNING [http-nio-8000-exec-27] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/w2120204_SmartCampus_CW1] in deployment descriptor [E:\study\IIT 2ND YR\Sem_2\CW\CSA\apache-tomcat-9.0.117\conf\Catalina\localhost\w2120204_SmartCampus_CW1.xml] has been ignored
+22-Apr-2026 21:52:34.852 INFO [http-nio-8000-exec-27] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Apr-2026 21:52:35.193 WARNING [http-nio-8000-exec-27] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+22-Apr-2026 21:52:35.414 INFO [http-nio-8000-exec-27] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\study\IIT 2ND YR\Sem_2\CW\CSA\apache-tomcat-9.0.117\conf\Catalina\localhost\w2120204_SmartCampus_CW1.xml] has finished in [5,107] ms
+22-Apr-2026 21:52:35.415 INFO [http-nio-8000-exec-28] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/w2120204_SmartCampus_CW1]] after start() had already been called. The second call will be ignored.
+22-Apr-2026 21:53:13.689 INFO [http-nio-8000-exec-33] com.vishmaj.w2120204_smartcampus_cw1.filters.LoggingFilter.filter >>> INCOMING REQUEST: GET http://localhost:8000/w2120204_SmartCampus_CW1/api/v1/sensors
+22-Apr-2026 21:53:13.724 INFO [http-nio-8000-exec-33] com.vishmaj.w2120204_smartcampus_cw1.filters.LoggingFilter.filter <<< OUTGOING RESPONSE: Status 200
+22-Apr-2026 21:53:18.921 INFO [http-nio-8000-exec-26] com.vishmaj.w2120204_smartcampus_cw1.filters.LoggingFilter.filter >>> INCOMING REQUEST: GET http://localhost:8000/w2120204_SmartCampus_CW1/api/v1/rooms
+22-Apr-2026 21:53:19.128 INFO [http-nio-8000-exec-26] com.vishmaj.w2120204_smartcampus_cw1.filters.LoggingFilter.filter <<< OUTGOING RESPONSE: Status 500
+22-Apr-2026 21:54:12.529 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+22-Apr-2026 21:54:12.530 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8000"]
+22-Apr-2026 21:54:12.536 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+22-Apr-2026 21:54:12.549 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8000"]
+22-Apr-2026 21:54:12.560 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8000"]
