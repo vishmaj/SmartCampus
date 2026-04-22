@@ -3,6 +3,7 @@ package com.vishmaj.w2120204_smartcampus_cw1.resources;
 
 import com.vishmaj.w2120204_smartcampus_cw1.database.Database;
 import com.vishmaj.w2120204_smartcampus_cw1.*;
+import com.vishmaj.w2120204_smartcampus_cw1.exceptions.SensorUnavailableException;
 
 import java.util.ArrayList;
 import javax.ws.rs.*;
@@ -42,8 +43,8 @@ public class SensorReadingResource
         
         //Fetch the parent sensor and update its currentValue to match this new reading
         Sensor parentSensor = database.getSensors().get(sensorId);
-        if (parentSensor != null) {
-            parentSensor.setCurrentValue(reading.getValue());
+        if (parentSensor != null && "MAINTENANCE".equalsIgnoreCase(parentSensor.getStatus())) {
+            throw new SensorUnavailableException("Sensor is currently in MAINTENANCE mode and cannot accept readings.");
         }
         
         return Response.status(Response.Status.CREATED).entity(reading).build();

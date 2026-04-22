@@ -2,6 +2,7 @@ package com.vishmaj.w2120204_smartcampus_cw1.resources;
 
 import com.vishmaj.w2120204_smartcampus_cw1.database.Database;
 import com.vishmaj.w2120204_smartcampus_cw1.Room;
+import com.vishmaj.w2120204_smartcampus_cw1.exceptions.RoomNotEmptyException;
 
 import java.util.Collection;
 import javax.ws.rs.*;
@@ -18,7 +19,6 @@ public class SensorRoomResource
     @Produces(MediaType.APPLICATION_JSON)
     public Response getAllRooms()
       {
-        System.out.println("==== POST REQUEST RECEIVED ====");
         //This will retreive alll the rooms from the datanase concurent hash map
         Collection<Room> rooms = database.getRooms().values();
         return Response.ok(rooms).build();
@@ -69,7 +69,8 @@ public class SensorRoomResource
         
         //cannot delete room if it has active sensors
         if(room.getSensorIds() != null && !room.getSensorIds().isEmpty()){
-            return Response.status(Response.Status.CONFLICT).entity("{\"error\":\"Cannot delete room, room cantains active sensors\"}").build();
+          // Trigger the Exception Mapper!
+          throw new RoomNotEmptyException("Cannot delete room. Active sensors are still assigned to it.");
         }
         //deleting the room if conditon is false
         database.getRooms().remove(roomId);

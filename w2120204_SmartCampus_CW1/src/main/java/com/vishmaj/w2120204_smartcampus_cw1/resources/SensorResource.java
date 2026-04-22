@@ -2,6 +2,7 @@ package com.vishmaj.w2120204_smartcampus_cw1.resources;
 
 import com.vishmaj.w2120204_smartcampus_cw1.database.Database;
 import com.vishmaj.w2120204_smartcampus_cw1.*;
+import com.vishmaj.w2120204_smartcampus_cw1.exceptions.LinkedResourceNotFoundException;
 
 import java.util.ArrayList;
 import javax.ws.rs.*;
@@ -27,7 +28,8 @@ public class SensorResource
         //checking if the room exists
         Room room = database.getRooms().get(sensor.getRoomId());
         if(room== null){
-            return Response.status(Response.Status.NOT_FOUND).entity("{\"error\":\"Room not found to add sensor\"}").build();
+            // TRIGGER THE EXCEPTION
+            throw new LinkedResourceNotFoundException("Room ID '" + sensor.getRoomId() + "' does not exist.");
         }
         
         //create a list of sesnsor for the target room if not exist
