@@ -46,6 +46,8 @@ public class SensorReadingResource
         if (parentSensor != null && "MAINTENANCE".equalsIgnoreCase(parentSensor.getStatus())) {
             throw new SensorUnavailableException("Sensor is currently in MAINTENANCE mode and cannot accept readings.");
         }
+        //updateing the sensor
+        parentSensor.setCurrentValue(reading.getValue());
         
         return Response.status(Response.Status.CREATED).entity(reading).build();
     }
