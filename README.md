@@ -12,7 +12,7 @@ It provides a RESTful API for managing a university **Smart Campus** environment
 ---
 
 ## Video Demonstration
-[INSERT URL HERE]
+https://1drv.ms/v/c/c49b0dfb40c90660/IQCGA5FswKCDTIWIxz3wbqu9ATnjSOBOyEL9-UQ7JlnhUFA?e=kOnpfx
 
 ---
 
